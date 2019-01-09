@@ -1,0 +1,38 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "plugins": ["react"],
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "array-bracket-spacing": [2, "always"],
+    "block-spacing": [2, "always"],
+    "comma-dangle": [2, "never"],
+    "eol-last": 2,
+    "indent": [2, 2, { "SwitchCase": 1 }],
+    "max-len": [1, 100, 2, { "ignoreComments": true }],
+    "no-cond-assign": [2, "except-parens"],
+    "key-spacing": [2, { "align": "colon", "beforeColon": false, "afterColon": true }],
+    "brace-style": [2, "1tbs", {}],
+    "operator-linebreak": [2, "before"],
+    "no-multiple-empty-lines": 2,
+    "object-curly-spacing": [2, "always"],
+    "quotes": [2, "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
+    "semi": [2, "always"],
+    "curly": [2, "all"],
+    "strict": 0,
+    "space-before-blocks": [2, "always"],
+    "space-before-function-paren": [2, "never"],
+    "no-console": 1,
+    "no-debugger": 1,
+    "jsx-quotes": ["error", "prefer-double"],
+    "import/extensions": ['warning', 'always', {ignorePackages: true} ],
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/react-in-jsx-scope": 2,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-class-assign": 1
+  }
+}
